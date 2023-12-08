@@ -1,3 +1,10 @@
 # LiDAR-based-3D-Mapping-project
 
-Keil involves manually pushing a button that rotates a stepper motor. LiDAR sensor attached to stepper motor captures distance measurments that are sent to the micro controller through UART and to the PC(Python) through C2C. Python stores and maps the captured points, creating a slice of the hallway that the user is in. Multiple slices result in a 3D visualization of the hallway.
+This is the code for a 3D-Mapping project which utilizes a Time of Flight(ToF) sensor connected to a TI microcontroller to capture distance measurmements which are three dimensionally graphed using a Python Script.
+
+## Features
+
+- start/stop the capture of data with the click of a button on the microcontroller(The sensor itself stops capturing data, and the stepper motor it is connected to stops its rotation)
+- realign the stepper motor to original positoning
+- Choice to Graph data or continue taking measurements
+- Wipe existing data
